@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post - Climate Action Unit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="logo">
+                <h3>Climate Action Unit</h3>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About Us</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="index.html#blog" class="active">Blog</a>
+            </div>
+        </nav>
+        
+        <div class="page active">
+            <div class="blog-content">
+                <button onclick="window.location.href='index.html#blog'" style="margin-bottom: 20px;">← Back to Blog</button>
+                <article class="blog-post-full">
+                    <h1 id="postTitle"></h1>
+                    <div class="post-meta">
+                        <span id="postDate"></span>
+                        <span id="postCategory"></span>
+                    </div>
+                    <div id="postContent"></div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Action Climate Unit reserves all rights. | Powered by Super 4</p>
+    </footer>
+
+    <script src="blog-data.js"></script>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const postId = params.get('id');
+        
+        if (postId && blogPosts[postId]) {
+            const post = blogPosts[postId];
+            document.getElementById('postTitle').textContent = post.title;
+            document.getElementById('postDate').textContent = post.date;
+            document.getElementById('postCategory').textContent = post.category;
+            document.getElementById('postContent').innerHTML = post.content;
+            document.title = `${post.title} - Climate Action Unit`;
+        } else {
+            window.location.href = 'index.html#blog';
+        }
+    </script>
+</body>
+</html>
