@@ -4,22 +4,32 @@ const blogPosts = {
         date: 'Dec 6-7, 2025',
         category: 'Technology',
         content: `
-            <p>Smart home technology is transforming the way we live, work, and communicate. From home security systems to smart lighting and climate control, the future of smart home technology holds immense promise.</p>
+            <p>To find more information about our project read this....</p>
 
-            <h2>Security and Safety</h2>
-            <p>Smart home security systems use advanced AI and machine learning to detect and respond to intrusions, ensuring the safety of our homes. From smart locks to smart cameras, these systems provide a comprehensive defense against cyber threats.</p>
+            <h2>Problem Statement</h2>
+            <p>Many older people with asthma get sick when the air is very dirty, but they often do not notice because you cannot see pollution in the air.When the AQI (Air Quality Index) is high, the air has tiny harmful particles and gases that can get deep into the lungs. This can make asthma suddenly worse, causing coughing, wheezing, and trouble breathing, especially for grandparents and other elderly people.</p>
 
-            <h2>Convenience and Efficiency</h2>
-            <p>Smart home technology allows us to control and automate various aspects of our homes, saving time and energy. From smart thermostats to smart appliances, these devices streamline our daily routines and enhance our comfort.</p>
+            <h2>What Climate Action Unit Does</h2>
+            <p>Climate Action Unit is like a smart "air quality warning friend" for the whole world. It checks AQI in real time and shows clear, easy-to-read alerts so families know when the air is safe and when it is risky.Helping Elderly People with Asthmav.</p>
 
-            <h2>Automation and Efficiency</h2>
-            <p>Smart home automation systems can optimize energy usage and reduce maintenance costs. From smart home lighting to smart appliances, these systems automate routine tasks and save us time and money.</p>
+            <h2>Helping Elderly People with Asthma</h2>
+            <p>Before taking an elderly person with asthma outside or to the airport, you can quickly check the AQI on Climate Action Unit. If the AQI is high, you can change the plan:
+            
+Stay indoors
+Wear a mask
+Use an air purifier
+Keep inhalers ready to help prevent an asthma attack</p>
 
-            <h2>Community and Connectivity</h2>
-            <p>Smart home technology fosters a sense of community and connectivity. By connecting devices and enabling remote control, we can create a more connected and interconnected world.</p>
+            <h2>Features</h2>
+            <p> Real-Time Weather Data - Accurate, up-to-the-minute weather information from trusted global meteorological sources
 
-            <h2>Future Trends</h2>
-            <p>As smart home technology continues to evolve, we can expect to see even more innovative applications in areas such as smart home security, energy efficiency, and community building. The future of smart home technology is bright, and we can expect to see even more advancements in the coming years.</p>
+ Air Quality Monitoring - Comprehensive AQI tracking including PM2.5, PM10, CO, NO2, O3, and SO2 levels
+
+ Mobile Optimized - Responsive design ensuring seamless access across all devices and platforms
+
+ Global Coverage - Worldwide weather and air quality data for cities and regions across the globe</p>
+
+            
         `
 
     },
