@@ -213,13 +213,14 @@ async function handleContactSubmit(event) {
     const subject = document.getElementById('contactSubject').value;
     const message = document.getElementById('contactMessage').value;
     
+    const whatsappNumber = '918618079219';
+    const whatsappMessage = `*New Contact Form Submission*%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Email:* ${encodeURIComponent(email)}%0A*Subject:* ${encodeURIComponent(subject)}%0A*Message:* ${encodeURIComponent(message)}`;
+    
+    window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
+    
     const successDiv = document.getElementById('contactSuccess');
-    const errorDiv = document.getElementById('contactError');
-    
     successDiv.style.display = 'none';
-    errorDiv.style.display = 'none';
-    
-    successDiv.textContent = `Thank you ${name}! Your message has been received. We'll get back to you at ${email} soon.`;
+    successDiv.textContent = `Thank you ${name}! Opening WhatsApp to send your message.`;
     successDiv.style.display = 'block';
     document.getElementById('contactForm').reset();
 }

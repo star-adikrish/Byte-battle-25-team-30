@@ -1,5 +1,29 @@
 const blogPosts = {
     1: {
+        title: 'BYTE BATTLE Experience',
+        date: 'Dec 6-7, 2025',
+        category: 'Technology',
+        content: `
+            <p>Smart home technology is transforming the way we live, work, and communicate. From home security systems to smart lighting and climate control, the future of smart home technology holds immense promise.</p>
+
+            <h2>Security and Safety</h2>
+            <p>Smart home security systems use advanced AI and machine learning to detect and respond to intrusions, ensuring the safety of our homes. From smart locks to smart cameras, these systems provide a comprehensive defense against cyber threats.</p>
+
+            <h2>Convenience and Efficiency</h2>
+            <p>Smart home technology allows us to control and automate various aspects of our homes, saving time and energy. From smart thermostats to smart appliances, these devices streamline our daily routines and enhance our comfort.</p>
+
+            <h2>Automation and Efficiency</h2>
+            <p>Smart home automation systems can optimize energy usage and reduce maintenance costs. From smart home lighting to smart appliances, these systems automate routine tasks and save us time and money.</p>
+
+            <h2>Community and Connectivity</h2>
+            <p>Smart home technology fosters a sense of community and connectivity. By connecting devices and enabling remote control, we can create a more connected and interconnected world.</p>
+
+            <h2>Future Trends</h2>
+            <p>As smart home technology continues to evolve, we can expect to see even more innovative applications in areas such as smart home security, energy efficiency, and community building. The future of smart home technology is bright, and we can expect to see even more advancements in the coming years.</p>
+        `
+
+    },
+    5: {
         title: 'Understanding Global Air Quality Trends',
         date: 'Dec 5, 2025',
         category: 'Climate Change',
