@@ -1,3 +1,4 @@
+// Blog posts data - contains all blog post content
 const blogPosts = {
     1: {
         title: 'BYTE BATTLE Experience',
